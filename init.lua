@@ -19,3 +19,6 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
+
+vim.o.guifont = "Hack Nerd Font:h12"
+vim.g.python3_host_prog = "/Users/dmtri/.pyenv/versions/neovim-env/bin/python"
